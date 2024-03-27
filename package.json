@@ -1,0 +1,16 @@
+{
+  "name": "vitesse.zed",
+  "version": "1.0.0",
+  "description": "",
+  "main": "run.js",
+  "scripts": {
+    "run": "bun run run.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.11.30",
+    "glob": "^10.3.10"
+  }
+}
