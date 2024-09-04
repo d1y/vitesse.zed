@@ -1,0 +1,7 @@
+id = "vitesse-theme"
+name = "Vitesse Theme"
+version = "0.0.2"
+schema_version = 1
+authors = ["d1y <chenhonzhou@gmail.com>"]
+description = "Vitesse Theme For Zed"
+repository = "https://github.com/d1y/vitesse.zed"

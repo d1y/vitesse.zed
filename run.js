@@ -47,7 +47,7 @@ async function main() {
     result.themes.push(item)
   })
   const data = JSON.stringify(result, null, 2)
-  const outputFile = 'themes/vitesse.json' //&& "/Users/d1y/.config/zed/themes/vitesse.json";
+  const outputFile = 'themes/vitesse.json'
   fs.writeFileSync(outputFile, data)
 }
 
@@ -96,6 +96,9 @@ function transformTheme(input, output) {
     // use correct values to override nulls
     style[prop] = style[mappedKey]
   }
+
+  // terminal background
+  style['terminal.background'] = style.background
 
   // use andromeda's config directly
   // https://github.com/zed-industries/zed/blob/355aebd0e493aa9f60900179acf8011a1fc9117b/assets/themes/andromeda/andromeda.json#L139
